@@ -47,6 +47,7 @@
 		CAD7E1521CFCFFB500709977 /* CourseraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CourseraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAD7E1561CFCFFB500709977 /* CourseraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseraUITests.swift; sourceTree = "<group>"; };
 		CAD7E1581CFCFFB500709977 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAD7E1641CFD042400709977 /* miniReto.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = miniReto.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +78,7 @@
 		CAD7E12A1CFCFFB400709977 = {
 			isa = PBXGroup;
 			children = (
+				CAD7E1641CFD042400709977 /* miniReto.playground */,
 				CAD7E1351CFCFFB400709977 /* Coursera */,
 				CAD7E14A1CFCFFB500709977 /* CourseraTests */,
 				CAD7E1551CFCFFB500709977 /* CourseraUITests */,
