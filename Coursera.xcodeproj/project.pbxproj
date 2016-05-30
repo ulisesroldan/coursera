@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAD7E1371CFCFFB400709977 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD7E1361CFCFFB400709977 /* AppDelegate.swift */; };
+		CAD7E1391CFCFFB400709977 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD7E1381CFCFFB400709977 /* ViewController.swift */; };
+		CAD7E13C1CFCFFB400709977 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAD7E13A1CFCFFB400709977 /* Main.storyboard */; };
+		CAD7E13E1CFCFFB400709977 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAD7E13D1CFCFFB400709977 /* Assets.xcassets */; };
+		CAD7E1411CFCFFB400709977 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAD7E13F1CFCFFB400709977 /* LaunchScreen.storyboard */; };
+		CAD7E14C1CFCFFB500709977 /* CourseraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD7E14B1CFCFFB500709977 /* CourseraTests.swift */; };
+		CAD7E1571CFCFFB500709977 /* CourseraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD7E1561CFCFFB500709977 /* CourseraUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAD7E1481CFCFFB500709977 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAD7E12B1CFCFFB400709977 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAD7E1321CFCFFB400709977;
+			remoteInfo = Coursera;
+		};
+		CAD7E1531CFCFFB500709977 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAD7E12B1CFCFFB400709977 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAD7E1321CFCFFB400709977;
+			remoteInfo = Coursera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAD7E1331CFCFFB400709977 /* Coursera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coursera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD7E1361CFCFFB400709977 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAD7E1381CFCFFB400709977 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAD7E13B1CFCFFB400709977 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAD7E13D1CFCFFB400709977 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAD7E1401CFCFFB400709977 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAD7E1421CFCFFB400709977 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAD7E1471CFCFFB500709977 /* CourseraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CourseraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD7E14B1CFCFFB500709977 /* CourseraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseraTests.swift; sourceTree = "<group>"; };
+		CAD7E14D1CFCFFB500709977 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAD7E1521CFCFFB500709977 /* CourseraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CourseraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD7E1561CFCFFB500709977 /* CourseraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseraUITests.swift; sourceTree = "<group>"; };
+		CAD7E1581CFCFFB500709977 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAD7E1301CFCFFB400709977 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD7E1441CFCFFB500709977 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD7E14F1CFCFFB500709977 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAD7E12A1CFCFFB400709977 = {
+			isa = PBXGroup;
+			children = (
+				CAD7E1351CFCFFB400709977 /* Coursera */,
+				CAD7E14A1CFCFFB500709977 /* CourseraTests */,
+				CAD7E1551CFCFFB500709977 /* CourseraUITests */,
+				CAD7E1341CFCFFB400709977 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAD7E1341CFCFFB400709977 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAD7E1331CFCFFB400709977 /* Coursera.app */,
+				CAD7E1471CFCFFB500709977 /* CourseraTests.xctest */,
+				CAD7E1521CFCFFB500709977 /* CourseraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAD7E1351CFCFFB400709977 /* Coursera */ = {
+			isa = PBXGroup;
+			children = (
+				CAD7E1361CFCFFB400709977 /* AppDelegate.swift */,
+				CAD7E1381CFCFFB400709977 /* ViewController.swift */,
+				CAD7E13A1CFCFFB400709977 /* Main.storyboard */,
+				CAD7E13D1CFCFFB400709977 /* Assets.xcassets */,
+				CAD7E13F1CFCFFB400709977 /* LaunchScreen.storyboard */,
+				CAD7E1421CFCFFB400709977 /* Info.plist */,
+			);
+			path = Coursera;
+			sourceTree = "<group>";
+		};
+		CAD7E14A1CFCFFB500709977 /* CourseraTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAD7E14B1CFCFFB500709977 /* CourseraTests.swift */,
+				CAD7E14D1CFCFFB500709977 /* Info.plist */,
+			);
+			path = CourseraTests;
+			sourceTree = "<group>";
+		};
+		CAD7E1551CFCFFB500709977 /* CourseraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAD7E1561CFCFFB500709977 /* CourseraUITests.swift */,
+				CAD7E1581CFCFFB500709977 /* Info.plist */,
+			);
+			path = CourseraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAD7E1321CFCFFB400709977 /* Coursera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD7E15B1CFCFFB500709977 /* Build configuration list for PBXNativeTarget "Coursera" */;
+			buildPhases = (
+				CAD7E12F1CFCFFB400709977 /* Sources */,
+				CAD7E1301CFCFFB400709977 /* Frameworks */,
+				CAD7E1311CFCFFB400709977 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Coursera;
+			productName = Coursera;
+			productReference = CAD7E1331CFCFFB400709977 /* Coursera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAD7E1461CFCFFB500709977 /* CourseraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD7E15E1CFCFFB500709977 /* Build configuration list for PBXNativeTarget "CourseraTests" */;
+			buildPhases = (
+				CAD7E1431CFCFFB500709977 /* Sources */,
+				CAD7E1441CFCFFB500709977 /* Frameworks */,
+				CAD7E1451CFCFFB500709977 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAD7E1491CFCFFB500709977 /* PBXTargetDependency */,
+			);
+			name = CourseraTests;
+			productName = CourseraTests;
+			productReference = CAD7E1471CFCFFB500709977 /* CourseraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAD7E1511CFCFFB500709977 /* CourseraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD7E1611CFCFFB500709977 /* Build configuration list for PBXNativeTarget "CourseraUITests" */;
+			buildPhases = (
+				CAD7E14E1CFCFFB500709977 /* Sources */,
+				CAD7E14F1CFCFFB500709977 /* Frameworks */,
+				CAD7E1501CFCFFB500709977 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAD7E1541CFCFFB500709977 /* PBXTargetDependency */,
+			);
+			name = CourseraUITests;
+			productName = CourseraUITests;
+			productReference = CAD7E1521CFCFFB500709977 /* CourseraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAD7E12B1CFCFFB400709977 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Ulises Roldan";
+				TargetAttributes = {
+					CAD7E1321CFCFFB400709977 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					CAD7E1461CFCFFB500709977 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CAD7E1321CFCFFB400709977;
+					};
+					CAD7E1511CFCFFB500709977 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CAD7E1321CFCFFB400709977;
+					};
+				};
+			};
+			buildConfigurationList = CAD7E12E1CFCFFB400709977 /* Build configuration list for PBXProject "Coursera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAD7E12A1CFCFFB400709977;
+			productRefGroup = CAD7E1341CFCFFB400709977 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAD7E1321CFCFFB400709977 /* Coursera */,
+				CAD7E1461CFCFFB500709977 /* CourseraTests */,
+				CAD7E1511CFCFFB500709977 /* CourseraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAD7E1311CFCFFB400709977 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD7E1411CFCFFB400709977 /* LaunchScreen.storyboard in Resources */,
+				CAD7E13E1CFCFFB400709977 /* Assets.xcassets in Resources */,
+				CAD7E13C1CFCFFB400709977 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD7E1451CFCFFB500709977 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD7E1501CFCFFB500709977 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAD7E12F1CFCFFB400709977 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD7E1391CFCFFB400709977 /* ViewController.swift in Sources */,
+				CAD7E1371CFCFFB400709977 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD7E1431CFCFFB500709977 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD7E14C1CFCFFB500709977 /* CourseraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD7E14E1CFCFFB500709977 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD7E1571CFCFFB500709977 /* CourseraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAD7E1491CFCFFB500709977 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAD7E1321CFCFFB400709977 /* Coursera */;
+			targetProxy = CAD7E1481CFCFFB500709977 /* PBXContainerItemProxy */;
+		};
+		CAD7E1541CFCFFB500709977 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAD7E1321CFCFFB400709977 /* Coursera */;
+			targetProxy = CAD7E1531CFCFFB500709977 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAD7E13A1CFCFFB400709977 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAD7E13B1CFCFFB400709977 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAD7E13F1CFCFFB400709977 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAD7E1401CFCFFB400709977 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAD7E1591CFCFFB500709977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAD7E15A1CFCFFB500709977 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAD7E15C1CFCFFB500709977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Coursera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ur.Coursera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CAD7E15D1CFCFFB500709977 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Coursera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ur.Coursera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CAD7E15F1CFCFFB500709977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CourseraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ur.CourseraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coursera.app/Coursera";
+			};
+			name = Debug;
+		};
+		CAD7E1601CFCFFB500709977 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CourseraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ur.CourseraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coursera.app/Coursera";
+			};
+			name = Release;
+		};
+		CAD7E1621CFCFFB500709977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CourseraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ur.CourseraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Coursera;
+			};
+			name = Debug;
+		};
+		CAD7E1631CFCFFB500709977 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CourseraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ur.CourseraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Coursera;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAD7E12E1CFCFFB400709977 /* Build configuration list for PBXProject "Coursera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD7E1591CFCFFB500709977 /* Debug */,
+				CAD7E15A1CFCFFB500709977 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAD7E15B1CFCFFB500709977 /* Build configuration list for PBXNativeTarget "Coursera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD7E15C1CFCFFB500709977 /* Debug */,
+				CAD7E15D1CFCFFB500709977 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAD7E15E1CFCFFB500709977 /* Build configuration list for PBXNativeTarget "CourseraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD7E15F1CFCFFB500709977 /* Debug */,
+				CAD7E1601CFCFFB500709977 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAD7E1611CFCFFB500709977 /* Build configuration list for PBXNativeTarget "CourseraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD7E1621CFCFFB500709977 /* Debug */,
+				CAD7E1631CFCFFB500709977 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAD7E12B1CFCFFB400709977 /* Project object */;
+}
